@@ -9,7 +9,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>i'm a 3rd year computer engineering student @ mcmasteru, seeking an summer+fall 2024 internship.
+        <p>i'm a 3rd year computer engineering student @ mcmasteru, seeking an  internship.
           I previously developed software for Trigon, implemented cloud automation features at the Ontario Ministry of Health.
         </p>
         <p>
