@@ -1,6 +1,7 @@
 import Link from 'next/link';
+import styles from './sidebar.module.css'
 
-export default function NavBar() {
+export default function sideBar() {
     return (
         <nav className='nav'>
             <ul>
