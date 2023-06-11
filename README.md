@@ -1,1 +1,3 @@
 dominyxu.com 
+
+in nextjs
