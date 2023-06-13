@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import SideBar from '../components/sidebar';
 
-export default function Home() {
+export default function Main() {
   return (
     <div>
       <SideBar></SideBar>
