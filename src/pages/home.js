@@ -15,7 +15,12 @@ export default function Home() {
                 </p>
             </div>
             <div className='socials'>
+                <ul>
+                    <li>
+                        <a href='https://github.com/dominyxu' target='_blank' ></a>
+                    </li>
 
+                </ul>
             </div>
         </div>
     );
