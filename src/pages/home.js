@@ -11,7 +11,7 @@ export default function Home() {
                     <br></br>
                     <br></br>
 
-                    Feel free to reach out to me at <a href='mailto:xudominy32@gmail.com'>xudominy32@gmail.com</a> and grab a copy of my resume!
+                    Feel free to reach out to me at <a href='mailto:xudominy32@gmail.com'>xudominy32@gmail.com</a> and take a look at my resume!
                 </p>
             </div>
             <div className='socials'>

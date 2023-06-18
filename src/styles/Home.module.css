@@ -1,0 +1,9 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  padding-left: 50px;
+}

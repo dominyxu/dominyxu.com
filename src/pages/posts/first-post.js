@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Script from 'next/script';
 import Layout from '../../components/layout';
+import Image from 'next/image';
+
 
 export default function FirstPost() {
     return (
