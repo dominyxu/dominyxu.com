@@ -1,15 +1,13 @@
 import Head from 'next/head';
-import utilStyles from '../styles/utils.module.css';
 import SideBar from '../components/sidebar';
 import Home from '../pages/home';
 import homeStyles from '../styles/home.module.css';
-import bg from '/assets/background.png'
 import sidebarStyles from '../components/sidebar.module.css'
 
 
 const siteTitle = 'dominy xu';
 
-export default function Main(children) {
+export default function Main() {
   return (
     <div className={`${homeStyles.mainContainer} ${homeStyles.bg}`}>
       <Head>
