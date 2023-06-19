@@ -5,13 +5,11 @@ import homeStyles from '../styles/home.module.css';
 import sidebarStyles from '../components/sidebar.module.css'
 
 
-const siteTitle = 'dominy xu';
-
-export default function Main() {
+export default function Index() {
   return (
-    <div className={`${homeStyles.mainContainer} ${homeStyles.bg}`}>
+    <div className={`${homeStyles.mainContainer}`}>
       <Head>
-        <title>{siteTitle}</title>
+        <title>dominy xu</title>
       </Head>
       <div className={sidebarStyles.sidebarcontainer}> 
         <SideBar></SideBar>
