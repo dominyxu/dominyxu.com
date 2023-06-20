@@ -1,16 +1,19 @@
 import Head from 'next/head';
 import SideBar from '../components/sidebar';
-import Home from '../pages/home';
+import Home from './home';
 import homeStyles from '../styles/home.module.css';
 import sidebarStyles from '../components/sidebar.module.css'
 
 
+const siteTitle = 'dominy xu';
+
 export default function Index() {
   return (
-    <div className={`${homeStyles.mainContainer}`}>
-      <Head>
-        <title>dominy xu</title>
+    <>
+    <Head>
+        <title>{siteTitle}</title>
       </Head>
+    <div className={`${homeStyles.mainContainer} ${homeStyles.bg}`}>
       <div className={sidebarStyles.sidebarcontainer}> 
         <SideBar></SideBar>
       </div>
@@ -19,5 +22,6 @@ export default function Index() {
 
       </div>
     </div>
+    </>
   );
 }
