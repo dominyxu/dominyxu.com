@@ -1,3 +1,0 @@
-dominyxu.com 
-
-in nextjs
