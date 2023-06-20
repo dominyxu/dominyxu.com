@@ -10,18 +10,17 @@ const siteTitle = 'dominy xu';
 export default function Index() {
   return (
     <>
-    <Head>
+      <Head>
         <title>{siteTitle}</title>
       </Head>
-    <div className={`${homeStyles.mainContainer} ${homeStyles.bg}`}>
-      <div className={sidebarStyles.sidebarcontainer}> 
-        <SideBar></SideBar>
+      <div className={homeStyles.mainContainer}>
+        <div className={sidebarStyles.sidebarcontainer}>
+          <SideBar></SideBar>
+        </div>
+        <div className={homeStyles.content}>
+          <Home></Home>
+        </div>
       </div>
-      <div className={homeStyles.content}>
-        <Home></Home>
-
-      </div>
-    </div>
     </>
   );
 }

@@ -1,11 +1,10 @@
 .mainContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .content{
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 
