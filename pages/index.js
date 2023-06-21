@@ -20,6 +20,9 @@ export default function Index() {
         <div className={homeStyles.content}>
           <Home></Home>
         </div>
+        <div>
+          
+        </div>
       </div>
     </>
   );
