@@ -8,8 +8,7 @@
   padding-left: 2rem;
 }
 
-
-.bg{
-  width: 100%;
-  height: 100%;
+.socials ul li{
+  display: inline-block;
+  width: 2rem;
 }
