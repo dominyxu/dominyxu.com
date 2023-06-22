@@ -7,24 +7,32 @@ export default function SideBar() {
     return (
         <div>
             <nav>
-                <Link href="/">
-                    <Image
-                        priority
-                        src="/images/h2s_profile.jpeg"
-                        className={sidebarStyles.pfp}
-                        height={144}
-                        width={144}
-                        alt="pfp"
-                    />
-                </Link>
-                <br></br>
-                <Link href="/experience">experience</Link>
-                <br></br>
-                <Link href="/projects">projects</Link>
-                <br></br>
-                <Link href="/interests">interests</Link>
-                <br></br>
+                <ul>
+                    <li>
+                        <Link href="/">
+                            <Image
+                                priority
+                                src="/images/h2s_profile.jpeg"
+                                className={sidebarStyles.pfp}
+                                height={250}
+                                width={250}
+                                alt="pfp"
+                            />
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/experience">experience</Link>
+                    </li>
+                    <li>
+                        <Link href="/projects">projects</Link>
+                    </li>
 
+
+                    <li>
+                        <Link href="/interests">interests</Link>
+                    </li>
+
+                </ul>
             </nav>
         </div>
     )
