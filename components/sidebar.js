@@ -13,8 +13,8 @@ export default function SideBar() {
                             priority
                             src="/images/h2s_profile.jpeg"
                             className={sidebarStyles.pfp}
-                            height={200}
-                            width={200}
+                            height={175}
+                            width={175}
                             alt="pfp"
                         />
                     </Link>

@@ -1,6 +1,6 @@
 
 
-export default function Experience() {
+export default function Interests() {
     return (
         <>
             <div className="experiences">
