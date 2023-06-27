@@ -5,8 +5,7 @@ import homeStyles from '../styles/home.module.css';
 import sidebarStyles from '../components/sidebar.module.css';
 import Script from 'next/script';
 import {useRouter} from 'next/router';
-import Experience from './experience';
-import Interests from './interests';
+
 
 
 const siteTitle = 'dominy xu';
@@ -27,7 +26,7 @@ export default function Index() {
         </div>
         <div className={homeStyles.content}>
           {/*<Home></Home>*/}
-          {router.pathname === '/' && <Home/>}
+          {router.pathname === '/' && <Home></Home>}
           {router.pathname === '/experience' && <Experience/>}
           {router.pathname === '/projects' && <Projects/>}
           {router.pathname === '/interests' && <Interests/>}

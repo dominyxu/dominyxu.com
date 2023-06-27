@@ -3,8 +3,9 @@
 export default function Experience() {
     return (
         <>
-            <div className="experiences">
+            <div className="experience">
                 <h1>experience</h1>
+                <p>hi</p>
             </div>
         </>
     );
