@@ -18,23 +18,20 @@ export default function Index() {
     <>
       <Head>
         <title>{siteTitle}</title>
-        <Script src="https://kit.fontawesome.com/c1d5331308.js" crossorigin="anonymous"></Script>
       </Head>
       <div className={homeStyles.mainContainer}>
         <div className={sidebarStyles.sidebarcontainer}>
-          <SideBar></SideBar>
+          <SideBar/>
         </div>
         <div className={homeStyles.content}>
           {/*<Home></Home>*/}
-          {router.pathname === '/' && <Home></Home>}
+          {router.pathname === '/' && <Home/>}
           {router.pathname === '/experience' && <Experience/>}
           {router.pathname === '/projects' && <Projects/>}
           {router.pathname === '/interests' && <Interests/>}
 
         </div>
-        <div>
-          
-        </div>
+
       </div>
     </>
   );

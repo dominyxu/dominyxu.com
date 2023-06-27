@@ -3,7 +3,7 @@
 export default function Projects() {
     return (
         <>
-            <div className="experiences">
+            <div className="projects">
                 <h1>projects</h1>
             </div>
         </>
