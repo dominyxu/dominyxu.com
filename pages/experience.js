@@ -4,7 +4,7 @@ export default function Experience() {
     return (
         <>
             <div className="experiences">
-                <h1>test</h1>
+                <h1>experience</h1>
             </div>
         </>
     );
