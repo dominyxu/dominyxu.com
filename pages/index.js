@@ -19,20 +19,19 @@ export default function Index() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className={homeStyles.mainContainer}>
+
+        {/*
         <div className={sidebarStyles.sidebarcontainer}>
           <SideBar/>
         </div>
-        <div className={homeStyles.content}>
+         */}
           {/*<Home></Home>*/}
           {router.pathname === '/' && <Home/>}
           {router.pathname === '/experience' && <Experience/>}
           {router.pathname === '/projects' && <Projects/>}
           {router.pathname === '/interests' && <Interests/>}
 
-        </div>
 
-      </div>
     </>
   );
 }

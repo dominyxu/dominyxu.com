@@ -17,7 +17,9 @@ body {
 }
 
 
-
+.right{
+  padding-left: 2rem;
+}
 
 a {
   color: black;
@@ -36,9 +38,4 @@ p,
 ul {
   margin: 0;
   padding: 0;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
 }

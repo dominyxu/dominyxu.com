@@ -5,7 +5,8 @@ export default function Experience() {
         <>
             <div className="experience">
                 <h1>experience</h1>
-                <p>hi</p>
+                <br></br>
+                <p>hihihihihihihihihihihihihihihihihihihihihihihihihihihi aljdfvnajkfv ohjfdajvkladfvkladf </p>
             </div>
         </>
     );
