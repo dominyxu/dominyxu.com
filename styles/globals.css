@@ -19,7 +19,11 @@ body{
   font-family: 'IBM Plex Mono', monospace;  
   color:white;
   color-scheme: dark;
+
+  /*bg*/
   background-image: url(../public/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover
 }
 
 .right{
