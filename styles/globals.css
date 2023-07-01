@@ -24,6 +24,7 @@ body{
   /*bg*/
   background-image: url(../public/images/background.png);
   background-repeat: no-repeat;
+  /*background: linear-gradient(163deg,#100a2d,#150739 12%,#191038 28%,#1c0a34 49%,#110a32 79%,#0e0728 90%,#0c0722);*/
   background-size: cover
 }
 
