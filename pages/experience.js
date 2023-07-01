@@ -8,7 +8,7 @@ export default function Experience() {
                 <br></br>
                 <h2>Ministry of Health</h2>
                 <br></br>
-                <p>hihihihihihihihihihihihihihihihihihihihihihihihihihihi aljdfvnajkfv ohjfdajvkladfvkladf </p>
+                <p>hihihihihihihihihihihihihihihih aljdfvnajkfv ohjfdajvkladfvkladf </p>
                 <br></br>
                     <p>
                         I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in cloud technologies, machine learning and fintech with the ultimate goal of creating better products through software.

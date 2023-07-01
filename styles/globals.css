@@ -2,6 +2,8 @@
 
 html,
 body {
+  color-scheme: dark;
+
   scroll-behavior: smooth;
   min-height: 100%;
 
@@ -18,7 +20,6 @@ body{
   margin: 0;
   font-family: 'IBM Plex Mono', monospace;  
   color:white;
-  color-scheme: dark;
 
   /*bg*/
   background-image: url(../public/images/background.png);
