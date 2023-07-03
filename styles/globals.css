@@ -33,7 +33,10 @@ body{
   width: 100%;
 }
 
-
+a {
+  color: white;
+  text-decoration: none;
+}
 
 * {
   box-sizing: border-box;
