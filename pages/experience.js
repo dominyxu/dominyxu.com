@@ -1,5 +1,3 @@
-
-
 export default function Experience() {
     return (
         <>
@@ -8,30 +6,25 @@ export default function Experience() {
                 <br></br>
                 <h2>Ministry of Health</h2>
                 <br></br>
-                <p>hihihihihihihihihihihihihihihih aljdfvnajkfv ohjfdajvkladfvkladf </p>
+                <p>hihihihihihihihihihihihihihihih  oh what's the name of your podcast </p>
                 <br></br>
-                    <p>
-                        I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in cloud technologies, machine learning and fintech with the ultimate goal of creating better products through software.
-                        <br></br>
-                        <br></br>
-
-                        Feel free to reach out to me at and grab a copy of my resume!
-                    </p>
-                    <p>
-                        I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in cloud technologies, machine learning and fintech with the ultimate goal of creating better products through software.
-                        <br></br>
-                        <br></br>
-
-                        Feel free to reach out to me at and grab a copy of my resume!
-                    </p>
-                    <p>
-                        I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in cloud technologies, machine learning and fintech with the ultimate goal of creating better products through software.
-                        <br></br>
-                        <br></br>
-
-                        Feel free to reach out to me at and grab a copy of my resume!
-                    </p>
+                    
             </div>
         </>
     );
 }
+
+const SAMPLE_CARD = [
+    {
+        id: 1,
+        question: "what is 2+2",
+        answer: '4',
+        options: [
+            '2',
+            '3',
+            '4',
+            '5'
+        ]
+    }
+
+]
