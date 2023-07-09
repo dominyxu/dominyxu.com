@@ -1,7 +1,7 @@
-import { useState } from "react";
+import ExperienceFlipcard from "../components/experienceFlipcard";
+
 
 export default function Experience() {
-
 
     return (
         <>
@@ -10,6 +10,8 @@ export default function Experience() {
                 <br></br>
                 <h2>Ministry of Health</h2>
                 <br></br>
+                <ExperienceFlipcard></ExperienceFlipcard>
+
                     
             </div>
         </>
