@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function Experience() {
+
+
     return (
         <>
             <div className="experience">
@@ -6,15 +10,13 @@ export default function Experience() {
                 <br></br>
                 <h2>Ministry of Health</h2>
                 <br></br>
-                <p>hihihihihihihihihihihihihihihih  oh what's the name of your podcast </p>
-                <br></br>
                     
             </div>
         </>
     );
 }
 
-const SAMPLE_CARD = [
+/* const SAMPLE_CARD = [
     {
         id: 1,
         question: "what is 2+2",
@@ -25,6 +27,18 @@ const SAMPLE_CARD = [
             '4',
             '5'
         ]
-    }
+    },
+    {
+        id: 2,
+        question: "what is 2+3",
+        answer: 'answer',
+        options: [
+            'answer',
+            'answer1',
+            'answer2',
+            'answer3',
+            'answer4'
+        ]
+    },
 
-]
+] */
