@@ -20,13 +20,14 @@ body{
   padding: 0;
   margin: 0;
   font-family: 'IBM Plex Mono', monospace;  
-  color:white;
+  color:black;
 
+  background-color: aliceblue;
   /*bg*/
-  background-image: url(../public/images/background.png);
+  /*background-image: url(../public/images/background.png);
   /*background-repeat: no-repeat;*/
   /*background: linear-gradient(163deg,#100a2d,#150739 12%,#191038 28%,#1c0a34 49%,#110a32 79%,#0e0728 90%,#0c0722);*/
-  background-size: cover
+  /*background-size: cover*/
 }
 
 .right{
@@ -35,7 +36,7 @@ body{
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
