@@ -1,0 +1,39 @@
+/*
+
+--exit transition
+showFront = true -> false
+front -> back
+
+--enter transition
+showFront = false -> true
+back -> front
+
+*/
+
+.flipExit {
+    transform: rotateY(0deg);
+}
+
+.flipExitActive {
+    transform: rotateY(180deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(.57,.21,.69,1.25);
+}
+
+.flipExitDone {
+    transform: rotateY(180deg);
+}
+
+.flipEnter {
+    transform: rotateY(180deg);
+}
+
+.flipEnterActive {
+    transform: rotateY(0deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(.57,.21,.69,1.25);
+}
+
+.flipEnterDone {
+    transform: rotateY(0deg);
+}
