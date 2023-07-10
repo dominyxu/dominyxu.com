@@ -1,15 +1,28 @@
-import flipcardStyles from './experienceFlipcard.module.css'
+
 import { CSSTransition } from 'react-transition-group';
+import { useState } from "react";
+import Flipcard from './Flipcard';
+import experienceFlipcardStyles from './experienceFlipcard.module.css'
 
+export default function ExperienceFlipcard() {
 
-export default function ExperienceFlipcard({onClick}) {
+  const [showFront, setShowFront] = useState(true); //useState to determine if we show the front or the back of the card
+
   return (
-    <div className={flipcardStyles.flipcardContainer} onClick={onClick}>
-      <div className={flipcardStyles.back}>backside</div>
-      <div className={flipcardStyles.front}>frontside</div>
-
-
-    </div>
+      <div className={experienceFlipcardStyles.flippableCardContainer}>
+            <CSSTransition
+                in={showFront}
+                timeout={300}
+                classNames='flip'
+            >
+                <Flipcard onClick={() => {
+                    setShowFront((v) => !v);
+                }}/>
+            </CSSTransition>
+            <Flipcard onClick={() => {
+                    setShowFront((v) => !v);
+                }}/>
+        </div>
   );
 
 }
