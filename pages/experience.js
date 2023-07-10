@@ -1,8 +1,9 @@
 import ExperienceFlipcard from "../components/experienceFlipcard";
-
+import { CSSTransition } from 'react-transition-group';
+import { useState } from "react";
 
 export default function Experience() {
-
+    const [showFront, setShowFront] = useState(true); //useState to determine if we show the front or the back of the card
     return (
         <>
             <div className="experience">
@@ -10,9 +11,13 @@ export default function Experience() {
                 <br></br>
                 <h2>Ministry of Health</h2>
                 <br></br>
-                <ExperienceFlipcard></ExperienceFlipcard>
+                <CSSTransition>
+                    <ExperienceFlipcard onClick={()=>{
+                        setShowFront((v)=>!v);
+                    }}></ExperienceFlipcard>
+                </CSSTransition>
 
-                    
+
             </div>
         </>
     );
