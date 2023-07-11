@@ -19,9 +19,7 @@ export default function ExperienceFlipcard() {
                     setShowFront((v) => !v);
                 }}/>
             </CSSTransition>
-            <Flipcard onClick={() => {
-                    setShowFront((v) => !v);
-                }}/>
+
         </div>
   );
 

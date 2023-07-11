@@ -10,6 +10,7 @@
 
 
     transform-style: preserve-3d;
+    transition: 750ms;
 
     user-select: none;
     cursor: pointer;
@@ -17,9 +18,9 @@
 
 }
 
-/* .flipcardContainer:hover{
+.card:hover{
     transform: rotateY(180deg);
-}  */
+}  
 
 .front,
 .back {
