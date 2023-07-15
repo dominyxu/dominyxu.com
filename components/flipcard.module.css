@@ -1,6 +1,6 @@
 .card{
     /*== sizing ==*/
-    height: 100px;
+    height: 150px;
     width: 100%;
 
     /*== styling ==*/
@@ -49,10 +49,19 @@
 }
 
 .front{
+    width: 100%;
     background-color: #73d0ff;
+    font-size: 1rem;
+
 }
 
 .back{
     background-color: #ffad66;
     transform: rotateY(180deg);
+}
+
+.left{
+    width: 80%;
+    display: flex;
+    align-items: center;
 }
