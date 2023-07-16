@@ -9,24 +9,27 @@ export default function Flipcard({ logo, role, location, date, content, onClick 
                 {content}
             </div>
             <div className={flipcardStyles.front}>
-                <h2 className='left'>
+                <h2 className={flipcardStyles.left}>
                     <div>
                         <Image
                             /*src={logo}*/
-                            src="/images/h2s_profile.jpeg"
+                            src="/images/mcmaster.png"
                             className={flipcardStyles.logo}
-                            height={75}
-                            width={75}
+                            height={100}
+                            width={100}
                             alt="logo"
                         />
                     </div>
-                    <div>
+                    <div className={flipcardStyles.info}>
+                        <div>
                         <Link href="https://www.eng.mcmaster.ca/ece/">MCMASTER UNIVERSITY</Link>
-
-                        Computer Engineering Student
+                        <br></br>
+                        </div>
+                        
+                        computer engineering student
                     </div>
                 </h2>
-                <div className='right'>
+                <div className={flipcardStyles.right}>
                     <h3>{date}</h3>
                 </div>
 

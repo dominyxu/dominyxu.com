@@ -1,4 +1,3 @@
-//FIXED HTML
 import '../styles/globals.css'
 import SideBar from '../components/sidebar';
 import homeStyles from '../styles/home.module.css';
