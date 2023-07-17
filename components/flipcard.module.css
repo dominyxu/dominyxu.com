@@ -1,6 +1,6 @@
 .card{
     /*== sizing ==*/
-    height: 150px;
+    height: 100px;
     width: 100%;
 
     /*== styling ==*/
@@ -10,7 +10,7 @@
 
     position: relative;
     transform-style: preserve-3d;
-    /*transition: 750ms;*/
+    transition: 750ms;
 
     user-select: none;
     cursor: pointer;
@@ -18,9 +18,9 @@
 
 }
 
-/* .card:hover{
+.card:hover{
     transform: rotateY(180deg);
-}   */
+}  
 
 .front,
 .back {
@@ -37,8 +37,8 @@
 
     /*== content aligning ==*/
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
 
 
     /*== content styling ==*/
@@ -51,8 +51,8 @@
 .front{
     width: 100%;
     background-color: #73d0ff;
-    font-size: 1rem;
-
+    font-size: 0.8rem;
+    justify-content: space-between;
 }
 
 .back{
@@ -61,9 +61,17 @@
 }
 
 .left{
-    width: 80%;
     display: flex;
     align-items: center;
+    padding-left: 1rem;
+
+}
+
+.right{
+    text-align: right;
+    float: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
 }
 
 .info{

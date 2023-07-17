@@ -17,8 +17,10 @@ export default function ExperienceFlipcard() {
             >
                 <Flipcard onClick={() => {
                     setShowFront((v) => !v);
-                }}/>
+                }}></Flipcard>
             </CSSTransition>
+            
+            <Flipcard></Flipcard>
 
         </div>
   );
