@@ -1,6 +1,6 @@
 .card{
     /*== sizing ==*/
-    height: 100px;
+    height: 125px;
     width: 100%;
 
     /*== styling ==*/
@@ -56,6 +56,10 @@
 }
 
 .back{
+    width: 100%;
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+    padding-top: 0.8rem;
     background-color: #ffad66;
     transform: rotateY(180deg);
 }

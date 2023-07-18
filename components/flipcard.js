@@ -9,13 +9,13 @@ export default function Flipcard({ logo, role, location, date, content, onClick 
                 {/* {content} */}
                 <div>
                     <>
-                        <br></br>
                         <ul>
-                            <li><strong>tools:</strong> Python NLP (TensorFlow, spaCy, regex, HuggingFace Transformers), Python data processing (pandas, camelot) KPMG Ignite AI Platform, Jupyter Notebook, Power BI</li>
-                            <li><strong>responsiblities:</strong> NLP project to process SOC reports, Power BI dashboard for compliance tracking
-                            </li>
+                            <li>Led development on an Electric Logging Device prototype using React and Tailwind CSS to the technical standard
+                                from the CCMTA.</li>
+                            <li>Designed and implemented UI changes to company website.</li>
+                            <li>Analyzed and oversaw technical fleet management data for City of Richmond Hill vehicles.</li>
+
                         </ul>
-                        <br></br>
                     </>
                 </div>
 
