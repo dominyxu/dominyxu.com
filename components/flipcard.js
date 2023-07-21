@@ -19,7 +19,7 @@ export default function Flipcard({ logo, role, company, companyLink, location, d
 
             </div>
             <div className={flipcardStyles.front}>
-                <h2 className={flipcardStyles.left}>
+                <div className={flipcardStyles.left}>
                     <div>
                         <Image
                             src={logo}
@@ -31,16 +31,15 @@ export default function Flipcard({ logo, role, company, companyLink, location, d
                         />
                     </div>
                     <div className={flipcardStyles.info}>
-                        <div>
+                        <div className={flipcardStyles.company}>
                             
                             {/*MCMASTER UNIVERSITY*/}
                             <Link href={`${companyLink}`}>{company}</Link>
-                            <br></br>
                         </div>
-                        {role}
+                        <p>{role}</p>
                         {/* computer engineering student */}
                     </div>
-                </h2>
+                </div>
                 <div className={flipcardStyles.right}>
                     
                     <p>{location}</p>
