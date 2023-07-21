@@ -22,14 +22,15 @@ body{
   padding: 0;
   margin: 0;
   font-family: 'IBM Plex Mono', monospace;  
-  color:black;
+  color:white;
 
   background-color: aliceblue;
   /*bg*/
-  /*background-image: url(../public/images/background.png);
-  /*background-repeat: no-repeat;*/
+  /*background-image: url(../public/images/bgrd.jpeg);*/
+  background-image: url(../public/images/bg.jpeg);
+  background-repeat: no-repeat;
   /*background: linear-gradient(163deg,#100a2d,#150739 12%,#191038 28%,#1c0a34 49%,#110a32 79%,#0e0728 90%,#0c0722);*/
-  /*background-size: cover*/
+  background-size: cover
 }
 
 .right{
@@ -38,7 +39,7 @@ body{
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
