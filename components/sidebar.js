@@ -11,7 +11,7 @@ export default function SideBar() {
                     <Link href="/">
                         <Image
                             priority
-                            src="/images/h2s_profile.jpeg"
+                            src="/images/pfp.jpeg"
                             className={sidebarStyles.pfp}
                             height={175}
                             width={175}
