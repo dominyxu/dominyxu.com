@@ -20,13 +20,13 @@ export default function SideBar() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/experience">experience</Link>
+                    <Link href="/experience" data-fill-text="experience">experience</Link>
                 </li>
                 <li>
-                    <Link href="/projects">projects</Link>
+                    <Link href="/projects" data-fill-text="projects">projects</Link>
                 </li>
                 <li>
-                    <Link href="/interests">interests</Link>
+                    <Link href="/interests" data-fill-text="interests">interests</Link>
                 </li>
 
             </ul>

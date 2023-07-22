@@ -1,5 +1,7 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
-.sidebarcontainer {
+
+  .sidebarcontainer {
 
     display: flex;
     flex-direction: column;
@@ -11,16 +13,64 @@
     list-style: none;
     margin: 0;
     height: 100%;
-    text-align: right;
-    font-size: 1.5rem;
-    font-weight: 600;
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
     
 }
 
 .nav ul li{
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
+
 }
 
 .pfp{
     border: 10px outset skyblue;
 }
+
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  
+}
+
+.nav ul li a:before{
+    background: skyblue;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    content: attr(data-fill-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 0.75s;
+
+}
+
+.nav ul li a:hover:before{
+    width: 100%;
+}
+
+
+/* .nav ul li a::before{
+    position: absolute;
+    content: attr(data-fill-text);
+    width: 0;
+    height: 100%;
+    color: lightblue;
+    -webkit-text-stroke: 0px transparent;
+    overflow: hidden;
+    transition: width 0.8s cubic-bezier(0.165, 0.84, 0.44,1);
+  
+}
+
+.nav ul li a:hover::before{
+    width: 100%;
+} */
