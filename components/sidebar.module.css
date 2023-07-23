@@ -13,7 +13,7 @@
     list-style: none;
     margin: 0;
     height: 100%;
-    text-align: left;
+    text-align: right;
     font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
@@ -29,13 +29,21 @@
     border: 10px outset skyblue;
 }
 
+
+/*== pfp popup animation ==*/
+
+.nav ul li a img{
+    transition: 0.75s;
+}
+
 .nav ul li a img:hover{
     transform:scale(1.1);
     z-index: 2;
-    transition: 0.75s;
-
+    
 }
 
+
+/*== text fill animation ==*/
 
 .nav ul li a {
     color: white;
