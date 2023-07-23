@@ -3,3 +3,9 @@
     height: 100%;
     perspective: 1000px;
 }
+
+.hr{
+    border: none;
+    height: 2px;
+background-color: skyblue;
+}

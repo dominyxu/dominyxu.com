@@ -21,11 +21,8 @@ export default function ExperienceFlipcard() {
                 content={
                     <div>
                         <ul>
-                            <li>Led development on an Electric Logging Device prototype using React and Tailwind CSS to the technical standard
-                                from the CCMTA.</li>
-                            <li>Designed and implemented UI changes to company website.</li>
-                            <li>Analyzed and oversaw technical fleet management data for City of Richmond Hill vehicles.</li>
-
+                            <li><strong>degree: </strong>bachelor's of computer engineering</li>
+                            <li><strong>gpa: </strong>3.7</li>
                         </ul>
                     </div>
                 }
@@ -41,10 +38,7 @@ export default function ExperienceFlipcard() {
                 content={
                     <div>
                         <ul>
-                            <li>Created a RESTful client service used by front-end application, when invoked, would return customer data eligible for promotion.</li>
-                            <li>Built an internal tool to support story documentation mapping between in-house JIRA board and client JIRA board.</li>
-                            <li>Completed development for 11 technical stories, wrote and executed Acceptance Criteria Tests for those stories.</li>
-                            <li>Worked in AGILE project environment to develop outward-facing client products as a scrum team member.</li>
+                            <li>aws infrastrucutre</li>
 
                         </ul>
                     </div>
