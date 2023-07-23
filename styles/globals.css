@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 
 html,
 body {
@@ -18,29 +20,31 @@ body {
   */
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
-  font-family: 'IBM Plex Mono', monospace;  
-  color:white;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
 
   background-color: aliceblue;
   /*bg*/
-  /*background-image: url(../public/images/bgrd.jpeg);*/
-  background-image: url(../public/images/bg.jpeg);
+  background-image: url(../public/images/bgrd.jpeg);
+  /*background-image: url(../public/images/bg.jpeg);*/
   background-repeat: no-repeat;
   /*background: linear-gradient(163deg,#100a2d,#150739 12%,#191038 28%,#1c0a34 49%,#110a32 79%,#0e0728 90%,#0c0722);*/
   background-size: cover
 }
 
-.right{
+.right {
   padding-left: 2rem;
   width: 100%;
 }
 
 a {
-  color: white;
+  color: transparent;
   text-decoration: none;
+  -webkit-text-stroke: 1px #ffffff;
+
 }
 
 * {
@@ -55,4 +59,17 @@ p,
 ul {
   margin: 0;
   padding: 0;
+}
+
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: skyblue;
+  margin-bottom: 2rem;
 }
