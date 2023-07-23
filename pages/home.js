@@ -23,7 +23,7 @@ export default function Home() {
                     <h1>hey! i’m dominy</h1>
                     <br></br>
                     <p>
-                        I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in cloud technologies, machine learning and fintech with the ultimate goal of creating better products through software.
+                        I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in all forms of tech ranging from, cloud technologies to machine learning with the ultimate goal of creating better products through software.
                         <br></br>
                         <br></br>
 
