@@ -1,9 +1,5 @@
-
-import { CSSTransition } from 'react-transition-group';
 import { useState } from "react";
-import Flipcard from './Flipcard';
 import experienceFlipcardStyles from './experienceFlipcard.module.css'
-import Link from 'next/link';
 import Card from './card';
 
 export default function ExperienceFlipcard() {
