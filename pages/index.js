@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import SideBar from '../components/sidebar';
 import Home from './home';
-import homeStyles from '../styles/home.module.css';
-import sidebarStyles from '../components/sidebar.module.css';
-import Script from 'next/script';
 import {useRouter} from 'next/router';
 
 

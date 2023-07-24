@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import SideBar from '../components/sidebar';
-import homeStyles from '../styles/home.module.css';
+import homeStyles from '../styles/homePage.module.css';
 
 
 export default function App({ Component, pageProps }) {
