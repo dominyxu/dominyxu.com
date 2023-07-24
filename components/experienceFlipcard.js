@@ -1,9 +1,10 @@
 
 import { CSSTransition } from 'react-transition-group';
 import { useState } from "react";
-import Flipcard from './flipcard';
+import Flipcard from './Flipcard';
 import experienceFlipcardStyles from './experienceFlipcard.module.css'
 import Link from 'next/link';
+import Card from './card';
 
 export default function ExperienceFlipcard() {
 
@@ -11,7 +12,7 @@ export default function ExperienceFlipcard() {
 
     return (
         <div className={experienceFlipcardStyles.flippableCardContainer}>
-            <Flipcard
+            <Card
                 logo="/images/mcmaster.png"
                 role="computer engineering student"
                 company="MCMASTER UNIVERSITY"
@@ -26,9 +27,9 @@ export default function ExperienceFlipcard() {
                         </ul>
                     </div>
                 }
-            ></Flipcard>
+            ></Card>
             <hr></hr>
-            <Flipcard
+            <Card
                 logo="/images/MoH.jpeg"
                 role="software engineer intern"
                 company="MINISTRY OF HEALTH"
@@ -43,8 +44,8 @@ export default function ExperienceFlipcard() {
                         </ul>
                     </div>
                 }
-            ></Flipcard>
-            <Flipcard
+            ></Card>
+            <Card
                 logo="/images/trigon1.png"
                 role="software engineer intern"
                 company="TRIGON COMPUTER SOLUTIONS"
@@ -62,8 +63,8 @@ export default function ExperienceFlipcard() {
                         </ul>
                     </div>
                 }
-            ></Flipcard>
-            <Flipcard
+            ></Card>
+            <Card
                 logo="/images/dmt.png"
                 role="developer intern"
                 company="DM&T SERVICES"
@@ -81,7 +82,7 @@ export default function ExperienceFlipcard() {
                         </ul>
                     </div>
                 }
-            ></Flipcard>
+            ></Card>
 
 
 
