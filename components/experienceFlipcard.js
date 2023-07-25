@@ -9,7 +9,7 @@ export default function ExperienceFlipcard() {
     return (
         <div className={experienceFlipcardStyles.flippableCardContainer}>
             <Card
-                logo="/images/mcmaster.png"
+                logo="/mcmaster.png"
                 role="computer engineering student"
                 company="MCMASTER UNIVERSITY"
                 companyLink="https://www.eng.mcmaster.ca/ece/"
@@ -26,7 +26,7 @@ export default function ExperienceFlipcard() {
             ></Card>
             <hr></hr>
             <Card
-                logo="/images/MoH.jpeg"
+                logo="/MoH.jpeg"
                 role="software engineer intern"
                 company="MINISTRY OF HEALTH"
                 companyLink="https://www.eng.mcmaster.ca/ece/"
@@ -42,7 +42,7 @@ export default function ExperienceFlipcard() {
                 }
             ></Card>
             <Card
-                logo="/images/trigon1.png"
+                logo="/trigon1.png"
                 role="software engineer intern"
                 company="TRIGON COMPUTER SOLUTIONS"
                 companyLink="https://www.linkedin.com/company/trigon_2/about/"
@@ -61,7 +61,7 @@ export default function ExperienceFlipcard() {
                 }
             ></Card>
             <Card
-                logo="/images/dmt.png"
+                logo="/dmt.png"
                 role="developer intern"
                 company="DM&T SERVICES"
                 companyLink="https://www.dmtserv.com/"

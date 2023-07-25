@@ -23,7 +23,7 @@ export default function Card({ logo, role, company, companyLink, location, date,
                     <div>
                         <Image
                             src={logo}
-                            // src="/images/mcmaster.png"
+                            // src="/mcmaster.png"
                             className={flipcardStyles.logo}
                             height={75}
                             width={75}
