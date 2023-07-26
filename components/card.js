@@ -1,11 +1,11 @@
-import flipcardStyles from './flipcard.module.css'
+import cardStyles from './card.module.css'
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Card({ logo, role, company, companyLink, location, date, content, onClick }) {
     return (
-        <div className={flipcardStyles.card} onClick={onClick}>
-            <div className={flipcardStyles.back}>
+        <div className={cardStyles.card} onClick={onClick}>
+            <div className={cardStyles.back}>
                 {content}
                 {/* <div>
                     <ul>
@@ -18,20 +18,20 @@ export default function Card({ logo, role, company, companyLink, location, date,
                 </div> */}
 
             </div>
-            <div className={flipcardStyles.front}>
-                <div className={flipcardStyles.left}>
+            <div className={cardStyles.front}>
+                <div className={cardStyles.left}>
                     <div>
                         <Image
                             src={logo}
                             // src="/mcmaster.png"
-                            className={flipcardStyles.logo}
+                            className={cardStyles.logo}
                             height={75}
                             width={75}
                             alt="logo"
                         />
                     </div>
-                    <div className={flipcardStyles.info}>
-                        <div className={flipcardStyles.company}>
+                    <div className={cardStyles.info}>
+                        <div className={cardStyles.company}>
                             
                             {/*MCMASTER UNIVERSITY*/}
                             <Link href={`${companyLink}`}>{company}</Link>
@@ -40,7 +40,7 @@ export default function Card({ logo, role, company, companyLink, location, date,
                         {/* computer engineering student */}
                     </div>
                 </div>
-                <div className={flipcardStyles.right}>
+                <div className={cardStyles.right}>
                     
                     <p>{location}</p>
                     <p>{date}</p> 

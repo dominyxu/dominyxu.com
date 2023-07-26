@@ -9,7 +9,7 @@ export default function ExperienceFlipcard() {
     return (
         <div className={experienceFlipcardStyles.flippableCardContainer}>
             <Card
-                logo="/mcmaster.png"
+                logo="/mcmaster1.png"
                 role="computer engineering student"
                 company="MCMASTER UNIVERSITY"
                 companyLink="https://www.eng.mcmaster.ca/ece/"
