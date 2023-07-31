@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Head from "next/head";
 import { useEffect } from "react";
 import homeStyles from '../styles/homePage.module.css'
 
@@ -23,9 +22,19 @@ export default function Home() {
                     <h1>hey! i’m dominy</h1>
                     <br></br>
                     <p>
-                        I am a third year computer engineering student based in Toronto studying @McMasterU. I’m interested in all forms of tech ranging from, cloud technologies to machine learning with the ultimate goal of creating better products through software.
+                        Welcome to my Death Star.
                         <br></br>
                         <br></br>
+
+
+                        I'm a third year computer engineering student based in Toronto studying @McMasterU. I've worked with cloud technologies, and front end development.
+                        <br></br>
+                        <br></br>
+                        
+                        When I'm not learning about anything tech, you can find me vibing out to Odesza's 'a moment apart' or trying to flash my boulder project.
+                        <br></br>
+                        <br></br>
+
 
                         Feel free to reach out to me at <Link href="mailto:xudominy32@gmail.com">xudominy32@gmail.com</Link> and grab a copy of my resume!
                     </p>
