@@ -31,8 +31,6 @@ export default function Index() {
         <meta property="og:description" content="pfp.jpeg" />
       </Head>
 
-
-
       {router.pathname === '/' && <Home />}
       {router.pathname === '/experience' && <Experience />}
       {router.pathname === '/projects' && <Projects />}

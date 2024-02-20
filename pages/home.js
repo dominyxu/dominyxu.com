@@ -19,24 +19,25 @@ export default function Home() {
         <>
             <div className="main">
                 <div className="bio">
-                    <h1>hey! i’m dominy</h1>
+                    <h1>dominy xu</h1>
                     <br></br>
                     <p>
-                        Welcome to my Death Star.
+                        i'm a third year computer engineering student studying <a href="https://www.eng.mcmaster.ca/ece/">@mcmasteru</a> seeking to take on lifes next challenge.
                         <br></br>
                         <br></br>
-
-
-                        I'm a third year computer engineering student based in Toronto studying @McMasterU. I've worked with cloud technologies, and front end development.
-                        <br></br>
-                        <br></br>
+                        incoming swe/fwe intern <a href="https://www.amd.com/en.html">@amd</a>. 
                         
-                        When I'm not learning about anything tech, you can find me vibing out to Odesza's 'a moment apart' or trying to flash my boulder project.
+                        <br></br>
+                        prev: swe intern <a href="https://www.health.gov.on.ca/en/">@ministry of health</a>, <a href="http://www.trigon.ca/">@trigon</a>.
+                        
                         <br></br>
                         <br></br>
 
+                        grab a copy of my resume
 
-                        Feel free to reach out to me at <Link href="mailto:xudominy32@gmail.com">xudominy32@gmail.com</Link> and grab a copy of my resume!
+                        <br></br>
+                        <br></br>
+                        listen along!
                     </p>
                 </div>
                 <br></br>
