@@ -1,0 +1,53 @@
+.accordianContainer{
+    width: 130%;
+    border-radius: 12px;
+    background-color: greenyellow;
+}
+
+.accordianFace{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.7rem;
+    cursor: pointer;
+}
+
+.accordianContent{
+    background-color: transparent;
+
+}
+
+.accordianContentText{
+    background-color: transparent;
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    /*text styling*/
+}
+
+.accordianLeft{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+}
+
+.accordianRight{
+    display: flex;
+    padding-left: 1rem;
+    float: right;
+    text-align: right;
+}
+
+.info{
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.activeContent {
+    display: block; /* Show content when active */
+}

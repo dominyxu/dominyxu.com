@@ -25,14 +25,14 @@
 }
 
 .pfp{
-    border: 10px outset skyblue;
+    border: 10px outset #ff8272;
 }
 
 
 /*== pfp popup animation ==*/
 
 .nav ul li a img{
-    transition: 0.75s;
+    transition: 0.5s;
 }
 
 .nav ul li a img:hover{

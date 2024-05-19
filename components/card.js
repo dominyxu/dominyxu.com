@@ -54,3 +54,4 @@ export default function Card({ logo, role, company, companyLink, location, date,
     );
 
 }
+
